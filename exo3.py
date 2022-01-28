@@ -91,6 +91,6 @@ class Voiture_citadine(Voiture, Moteur, Sieges, Jantes, Vitres, Aileron):
         self.aucun()
         print("Au moins c'est pas trop cher")
 
-voit = Voiture_confortable()
+voit = Voiture_puissante()
 voit.demarrer()
 
